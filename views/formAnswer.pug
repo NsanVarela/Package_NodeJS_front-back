@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+  // Navbar
+  nav.navbar.navbar-expand-lg.navbar-dark
+    a.navbar-brand(href='#') #{title}
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarText', aria-controls='navbarText', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarText.collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
+        li.nav-item.active
+          a.nav-link(href='#carouselExampleControls')
+            | Technos 
+            span.sr-only (current)
+        li.nav-item
+          a#redirection.nav-link(href='#infoContainer') Tutoriel
+      span.navbar-text
+        | Navbar text with an inline element
+
+  h1.containerTitle Bienvenue #{firstname}
+  br
+  p#welcome.col-12 Facilitez vos développements avec nos packages 
+  p#welcome.col-12 INNOVATION STARTER KIT
+  br
