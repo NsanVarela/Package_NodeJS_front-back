@@ -24,9 +24,6 @@ $ npm run build
 ```
 
 
-
-It still 5 vulnerabilities with [node sass](https://github.com/sass/node-sass/issues/2355)
-
 ## Docker
 
 To create the image
